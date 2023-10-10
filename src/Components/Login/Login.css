@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800&family=Reem+Kufi+Fun:wght@400;500;600;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+  font-family: Reem Kufi Fun;
+  font-size: 54px;
+  font-style: normal;
+  color:white;
+  margin:0;
+}
+h2{
+  text-align: center;
+  font-family: Outfit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  color: #9598A7;
+  margin:0;
+}
+.container{
+  background: #222431;
+  display:grid;
+  place-items:center;
+  align-items: center;
+  height: 100dvh;
+  margin: 0;
+}
+.container-login{
+  background: #282A37;
+  padding: 30px;
+  
+}
+.container-login-inputs{
+  display:grid;
+  gap:10px;
+}
+input{
+  border-radius: 46px;
+  border:none;
+  padding:10px 10px 10px 10px;
+  outline:none;
+  background: #323544;
+}
